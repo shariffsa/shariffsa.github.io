@@ -1,0 +1,12 @@
+---
+---
+
+@import "minima";
+
+.site-nav--center .trigger { text-align:center; }
+.site-nav--center .page-link { display:inline-block; margin:0 0.75rem; padding:0.25rem 0; font-weight:600; }
+.site-nav--center .page-link:hover { text-decoration: underline; }
+.site-header .wrapper { display:flex; justify-content:center; }
+
+.home .avatar { width:160px; height:160px; border-radius:50%; object-fit:cover; display:block; margin:1.25rem auto; border:4px solid #eee; }
+.home .page-content, .home .post-list { text-align:center; }
