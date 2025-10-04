@@ -8,6 +8,16 @@
   Shariff Sarip-Abidinsa
 </h1>
 
+<div class="btn-row">
+  <a>📄</a>
+  <a class="btn" href="{{'/assets/resume/resume.pdf'}}">Download Résume</a>
+  <a>;</a>
+  <a>📧</a>
+  <a class="btn" href="mailto:sbinsari@andrew.cmu.edu">Email Me</a>
+</div>
+
+---
+
 **About:** I am a Supervisor at the Central Bank of Malaysia, specializing in leveraging supervisory technology (SupTech) tools (e.g, geospatial analysis, entity outlier detection, financial forensics, and object detection). My work include applying these tools in domains like Anti-Money Laundering, Counter-Terrorism Financing and Proliferation Financing, Payment Fraud, Risk Assessment, and Policymaking. In addition to my work at the Central Bank, I am also interested in researching the intersection of Artificial Intelligence (AI) and Development Economics, AI Governance, and Responsible AI. I am _**open**_ to research opportunities in these fields!
 
 **Currently:** I am on study leave from work, and currently enrolled at Carnegie Mellon University studying Master's of Information Systems Management (specializing in Business Intelligence and Data Analytics), with an expected graduation date of August 2026.
