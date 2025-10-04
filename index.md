@@ -23,7 +23,7 @@
 
 ---
 
-## Projects <a id="projects"></a>
+## Projects [Work In Progress] <a id="projects"></a>
 
 - **CheckPal — AML/CFT Policy Compliance RAG**  
   One-liner impact. _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
@@ -32,6 +32,30 @@
 - **Stock Research Dashboard**  
   One-liner impact. _Stack:_ Python, Pandas, Plotly, Streamlit.  
   [Repo](#)
+
+
+---
+
+## Publications <a id="publications"></a>
+
+- **Machine Learning for Anomaly Detection in Money Services Business Outlets Using Data by Geolocation**  
+  Award: Best Paper by a Young Statistician.  
+  [Link to Paper](https://www.bis.org/ifc/publ/ifcwork23.pdf)
+
+- **Determinants of the COVID-19 Death Rate Using Machine Learning**  
+  Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
+  [Link to Paper](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing)
+
+---
+
+## Certifications & Affiliations <a id="affiliations"></a>
+
+- Certified Anti-Money Laundering Specialist (CAMS) by ACAMS
+  [ACAMS Graduate List]([https://www.bis.org/ifc/publ/ifcwork23.pdf](https://www.acams.org/en/graduates/acams-graduate-list-cams-certified-graduates#search=Shariff%20Abu%20Bakar%20Bin%20Sarip%20Abidinsa&page=0))
+
+- **MicroMaster's in Data, Economics, and Design of Policy**  
+  Major: International Development.  
+  [Certificate](https://mitxonline.mit.edu/certificate/program/eb97b804-9448-45c9-acdb-5bf4d7175a53/)
 
 ---
 
