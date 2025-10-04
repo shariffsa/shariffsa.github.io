@@ -50,8 +50,8 @@
 
 ## Certifications & Affiliations <a id="affiliations"></a>
 
-- Certified Anti-Money Laundering Specialist (CAMS) by ACAMS
-  [ACAMS Graduate List]([https://www.bis.org/ifc/publ/ifcwork23.pdf](https://www.acams.org/en/graduates/acams-graduate-list-cams-certified-graduates#search=Shariff%20Abu%20Bakar%20Bin%20Sarip%20Abidinsa&page=0))
+- Certified Anti-Money Laundering Specialist (CAMS) by ACAMS   
+  [ACAMS Graduate List](https://www.acams.org/en/graduates/acams-graduate-list-cams-certified-graduates#search=Shariff%20Abu%20Bakar%20Bin%20Sarip%20Abidinsa&page=0)
 
 - **MicroMaster's in Data, Economics, and Design of Policy**  
   Major: International Development.  
