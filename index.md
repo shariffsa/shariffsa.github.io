@@ -35,7 +35,7 @@
 
 ## Contact <a id="contact"></a>
 
-- **Email:** sbinsari@andrew.cmu.edu 
-- **LinkedIn:** https://www.linkedin.com/in/shariffsa/  
-- **GitHub:** https://github.com/shariffsa
-- **X:** https://x.com/shariff_ai
+- **Email:** [sbinsari@andrew.cmu.edu](mailto:sbinsari@andrew.cmu.edu)
+- **LinkedIn:** [https://www.linkedin.com/in/shariffsa/](https://www.linkedin.com/in/shariffsa/)  
+- **GitHub:** [https://github.com/shariffsa](https://github.com/shariffsa)
+- **X:** [https://x.com/shariff_ai](https://x.com/shariff_ai)
