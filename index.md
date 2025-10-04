@@ -1,7 +1,7 @@
 <a id="top"></a>
 
 <p align="center">
-  <img src="assets/img/profile.png" alt="Shariff profile photo" class="avatar" />
+  <img src="assets/img/profile.PNG" alt="Shariff profile photo" class="avatar" />
 </p>
 
 <h1 style="text-align: center;">
