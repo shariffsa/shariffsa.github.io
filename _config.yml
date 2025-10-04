@@ -1,8 +1,8 @@
-title: Shariff Abu Bakar Sarip Abidinsa
+title: Shariff Sarip-Abidinsa
 description: Data & AI • SupTech/RegTech • AML/CFT Analytics
 author:
-  name: Shariff Abu Bakar Sarip Abidinsa
-  email: your.email@example.com
+  name: Shariff Sarip-Abidinsa
+  email: sbinsari@andrew.cmu.edu
   github: shariffsa
 # Use GitHub Pages supported theme
 theme: minima
@@ -18,8 +18,8 @@ header_pages:
 minima:
   social_links:
     - {"platform": "github", "user_url": "https://github.com/shariffsa"}
-    - {"platform": "linkedin", "user_url": "https://www.linkedin.com/in/YOUR-LINKEDIN/"}
-    - {"platform": "x", "user_url": "https://x.com/YOUR-HANDLE"}
+    - {"platform": "linkedin", "user_url": "https://www.linkedin.com/in/shariffsarip/"}
+    - {"platform": "x", "user_url": "https://x.com/shariff_ai"}
 
 # Build settings
 markdown: kramdown
