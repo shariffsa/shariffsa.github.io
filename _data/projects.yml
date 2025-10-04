@@ -1,0 +1,15 @@
+- name: CheckPal — AML/CFT Policy Compliance RAG
+  description: LLM + vector DB system to compare FI policies against supervisory standards and produce explainable compliance ratings.
+  stack: Python, FastAPI, LangChain, Chroma/Pinecone, Streamlit
+  repo: https://github.com/YOUR-GITHUB/checkpal
+  demo: https://your-demo-url.example.com
+
+- name: Stock Research Dashboard
+  description: A Streamlit app integrating Alpha Vantage API, SEC filings scraping, and Yahoo Finance for event studies.
+  stack: Python, Pandas, Plotly, Streamlit
+  repo: https://github.com/YOUR-GITHUB/stock-dashboard
+
+- name: Geospatial Risk for Money Lenders
+  description: Detects outlet clustering & anomalies using spatial statistics to support supervisory prioritization.
+  stack: Python, GeoPandas, scikit-learn, Folium
+  repo: https://github.com/YOUR-GITHUB/geospatial-risk
