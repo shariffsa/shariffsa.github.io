@@ -1,0 +1,45 @@
+title: Shariff Abu Bakar Sarip Abidinsa
+description: Data & AI • SupTech/RegTech • AML/CFT Analytics
+author:
+  name: Shariff Abu Bakar Sarip Abidinsa
+  email: your.email@example.com
+  github: shariffsa
+# Use GitHub Pages supported theme
+theme: minima
+
+# Show pages in the header nav (by filename)
+header_pages:
+  - about.md
+  - projects.md
+  - resume.md
+  - contact.md
+
+# Minima options
+minima:
+  social_links:
+    - {"platform": "github", "user_url": "https://github.com/shariffsa"}
+    - {"platform": "linkedin", "user_url": "https://www.linkedin.com/in/YOUR-LINKEDIN/"}
+    - {"platform": "x", "user_url": "https://x.com/YOUR-HANDLE"}
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# If you later set a custom domain, uncomment the next line and set it
+# url: https://www.YOURDOMAIN.com
+
+# Useful defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
