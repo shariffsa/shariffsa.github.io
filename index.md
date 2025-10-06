@@ -26,15 +26,15 @@
 
 ---
 
-## Projects [Work In Progress] <a id="projects"></a>
+## Projects <a id="projects"></a>
 
 - **AML/CFT Policy Compliance RAG**  
-  Automated non-compliance checker using RAG system by comparing published policy documents . _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
-  [Repo - WIP](#) · [Demo - WIP](#)
+  Automated non-compliance checker using RAG system by comparing supervisory authorities' policy documents against company's own internal policies, controls and implementation plan. _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
+  [Repo - _coming soon_ ](#) · [Demo - _coming soon_ ](#)
 
 - **Stock Research Dashboard**  
   Stock comparison dashboard, leveraging technical analyses, sentiment analysis of news and securities filings. _Stack:_ Python, Pandas, Plotly, Streamlit.  
-  [Repo - WIP](#)
+  [Repo - _coming soon_ ](#)
 
 - **Outlier Detection Systems**  
   Flagging sytems for anomolous observations (e.g., at varying levels such as transactions, customers, and corporate entities) using weakly supervised learning framework. Due to project confidentiality, contact me to discuss more, if interested.
