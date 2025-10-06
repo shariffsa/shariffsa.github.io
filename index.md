@@ -29,21 +29,26 @@
 ## Projects <a id="projects"></a>
 
 - **AML/CFT Policy Compliance RAG**  
-  Automated non-compliance checker using RAG system by comparing supervisory authorities' policy documents against company's own internal policies, controls and implementation plan. _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
+  About: Automated non-compliance checker using RAG system by comparing supervisory authorities' policy documents against company's own internal policies, controls and implementation plan.  
+  _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
   [Repo - _coming soon_ ](#) · [Demo - _coming soon_ ](#)
 
 - **Stock Research Dashboard**  
-  Stock comparison dashboard, leveraging technical analyses, sentiment analysis of news and securities filings. _Stack:_ Python, Pandas, Plotly, Streamlit.  
+  Stock comparison dashboard, leveraging technical analyses, sentiment analysis of news and securities filings.  
+  _Stack:_ Python, Pandas, Plotly, Streamlit.  
   [Repo - _coming soon_ ](#)
 
 - **Outlier Detection Systems**  
-  Flagging sytems for anomolous observations (e.g., at varying levels such as transactions, customers, and corporate entities) using weakly supervised learning framework. Due to project confidentiality, contact me to discuss more, if interested.
+  Flagging sytems for anomolous observations (e.g., at varying levels such as transactions, customers, and corporate entities) using weakly supervised learning framework. Due to project confidentiality, contact me to discuss more, if interested.  
+  _Stack:_ Python, Scikit-Learn, Pandas, Numpy.
 
 - **CCTV Analytics**  
-  Object detection and flagging for anomlous behavior. Due to project confidentiality, contact me to discuss more, if interested.
+  Object detection and flagging for anomlous behavior. Due to project confidentiality, contact me to discuss more, if interested.  
+  _Stack:_ Python, Pandas, Numpy, OpenCV
 
 - **Financial Analytics**  
-  Forensic analyses of financial data. Due to project confidentiality, contact me to discuss more, if interested.
+  Forensic analyses of financial data. Due to project confidentiality, contact me to discuss more, if interested.  
+  _Stack:_ Python, Pandas, Numpy, Statistical Methods
 
 ---
 
