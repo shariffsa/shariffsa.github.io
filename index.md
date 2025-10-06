@@ -36,7 +36,7 @@
 - **Outlier Detection Systems**  
   Flagging sytems for anomolous observations using machine learning models. Email me to discuss more, if interested.
 
-- **CCTV Analytics**
+- **CCTV Analytics**  
   Object detection and flagging for anomlous behavior. Email me to discuss more, if interested.
 
 - **Financial Analytics**  
