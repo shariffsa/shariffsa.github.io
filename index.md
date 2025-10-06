@@ -67,7 +67,7 @@
   [ACAMS Graduate List](https://www.acams.org/en/graduates/acams-graduate-list-cams-certified-graduates#search=Shariff%20Abu%20Bakar%20Bin%20Sarip%20Abidinsa&page=0)
 
 - **MicroMaster's in Data, Economics, and Design of Policy @ MIT**  
-  Major: International Development.
+  Major: International Development.  
   Relevant Courses: Designing and Running Randomized Evaluations, Microeconomics, Development Policy, and Statistical Data Analysis.  
   [Certificate](https://mitxonline.mit.edu/certificate/program/eb97b804-9448-45c9-acdb-5bf4d7175a53/)
 
