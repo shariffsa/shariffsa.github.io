@@ -44,11 +44,11 @@
 
 - **CCTV Analytics**  
   Object detection and flagging for anomlous behavior. Due to project confidentiality, contact me to discuss more, if interested.  
-  _Stack:_ Python, Pandas, Numpy, OpenCV
+  _Stack:_ Python, Pandas, Numpy, OpenCV.
 
 - **Financial Analytics**  
   Forensic analyses of financial data. Due to project confidentiality, contact me to discuss more, if interested.  
-  _Stack:_ Python, Pandas, Numpy, Statistical Methods
+  _Stack:_ Python, Pandas, Numpy, Statistical Methods.
 
 ---
 
