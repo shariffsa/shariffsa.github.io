@@ -25,14 +25,22 @@
 
 ## Projects [Work In Progress] <a id="projects"></a>
 
-- **CheckPal — AML/CFT Policy Compliance RAG**  
-  One-liner impact. _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
-  [Repo](#) · [Demo](#)
+- **AML/CFT Policy Compliance RAG**  
+  Automated non-compliance checker using RAG system by comparing published policy documents . _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
+  [Repo - WIP](#) · [Demo - WIP](#)
 
 - **Stock Research Dashboard**  
-  One-liner impact. _Stack:_ Python, Pandas, Plotly, Streamlit.  
-  [Repo](#)
+  Stock comparison dashboard, leveraging technical analyses, sentiment analysis of news and securities filings. _Stack:_ Python, Pandas, Plotly, Streamlit.  
+  [Repo - WIP](#)
 
+- **Outlier Detection Systems**  
+  Flagging sytems for anomolous observations using machine learning models. Email me to discuss more, if interested.
+
+- **CCTV Analytics**
+  Object detection and flagging for anomlous behavior. Email me to discuss more, if interested.
+
+- **Financial Analytics**  
+  Forensic analyses of financial data. Email me to discuss more, if interested.
 
 ---
 
@@ -50,7 +58,7 @@
 
 ## Certifications & Affiliations <a id="affiliations"></a>
 
-- Certified Anti-Money Laundering Specialist (CAMS) by ACAMS   
+- **Certified Anti-Money Laundering Specialist (CAMS) by ACAMS**   
   [ACAMS Graduate List](https://www.acams.org/en/graduates/acams-graduate-list-cams-certified-graduates#search=Shariff%20Abu%20Bakar%20Bin%20Sarip%20Abidinsa&page=0)
 
 - **MicroMaster's in Data, Economics, and Design of Policy**  
