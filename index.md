@@ -20,7 +20,7 @@
   Relevant Courses: Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
 
 <div class="btn-row">
-  <a class="btn" href="{{'/assets/resume/resume.pdf'}}">📄 Download Résume</a>
+  <a class="btn" href="{{'/assets/resume/Resume-Shariff-Aug2025-CMU.pdf'}}">📄 Download Résume</a>
   <a class="btn" href="mailto:sbinsari@andrew.cmu.edu">📧 Email Me</a>
 </div>
 
