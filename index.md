@@ -19,7 +19,7 @@
   Research Project (Thesis):
   - [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing)  
   - Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter  
-
+  
 - **Bachelor of Science, Mathematics @ University of Wisconsin-Madison, USA, 2018**  
   Concentration: Actuarial Mathematics  
   Relevant Courses: Real Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
