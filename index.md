@@ -14,16 +14,14 @@
 
 **Education:**
 - **Master of Applied Statistics @ Universiti Malaya, Malaysia, 2022**  
-  Relevant Courses: Time Series Analysis, Econometrics, Biostatistics, Demographic Techniques, Operations Research Methods, & Statistical Methods  
-  GPA: 3.89/4.00  
-  Research Project (Thesis):
-  - [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing)  
-  - Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter  
-  
+  **Relevant Courses:** Time Series Analysis, Econometrics, Biostatistics, Demographic Techniques, Operations Research Methods, & Statistical Methods  
+  **Research Project (Thesis):** [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing). Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
+  **GPA:** 3.89/4.00  
+
 - **Bachelor of Science, Mathematics @ University of Wisconsin-Madison, USA, 2018**  
-  Concentration: Actuarial Mathematics  
-  Relevant Courses: Real Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
-  GPA: 3.25/4.00  
+  **Concentration:** Actuarial Mathematics  
+  **Relevant Courses:** Real Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
+  **GPA:** 3.25/4.00  
 
 <div class="btn-row">
   <a class="btn" href="{{'/assets/resume/Resume-Shariff-Aug2025-CMU.pdf'}}">📄 Download Résume</a>
