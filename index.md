@@ -8,7 +8,7 @@
   Shariff Sarip-Abidinsa
 </h1>
 
-**About:** I am a _**Data Analytics Supervisor**_ at the _**Central Bank of Malaysia**_, specializing in supervisory technology (SupTech) tools (e.g, geospatial analysis, entity outlier detection, financial forensics, and object detection). My work include applying these technologies in domains like _Anti-Money Laundering, Counter-Terrorism Financing and Proliferation Financing, Payment Fraud, Risk Assessment, and Policymaking_, to ultimately ensure Malaysia's financial stability through industry oversight and risk-informed decision making. In addition to my work at the Central Bank, I am also interested in researching the intersection of _Artificial Intelligence (AI) and Development Economics, AI Governance, Responsible AI, and AI's impact on the Labor Market_. I am _**open**_ to research opportunities in these fields!
+**About:** I am a _**Data Analytics Supervisor**_ at the _**Central Bank of Malaysia**_, specializing in supervisory technology (SupTech) tools (e.g, geospatial analysis, entity outlier detection, financial forensics, and object detection). My work include applying these technologies in domains like _Anti-Money Laundering, Counter-Terrorism Financing and Proliferation Financing, Payment Fraud, Risk Assessment, and Policymaking_, to ultimately ensure Malaysia's financial stability through industry oversight and risk-informed decision-making. In addition to my work at the Central Bank, I am also interested in researching the intersection of _Artificial Intelligence (AI) and Development Economics, AI Governance, Responsible AI, and AI's impact on the Labor Market_. I am _**open**_ to research opportunities in these fields!
 
 **Current Work:** I am on study leave from work, and currently enrolled at **Carnegie Mellon University** studying _Master's of Information Systems Management (specializing in Business Intelligence and Data Analytics)_, with an expected graduation date of August 2026.
 
@@ -19,7 +19,7 @@
   Research Project (Thesis):
   - [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing)  
   - Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter  
-  
+
 - **Bachelor of Science, Mathematics @ University of Wisconsin-Madison, USA, 2018**  
   Concentration: Actuarial Mathematics  
   Relevant Courses: Real Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
