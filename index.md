@@ -8,16 +8,22 @@
   Shariff Sarip-Abidinsa
 </h1>
 
-**About:** I am a _**Data Analytics Supervisor**_ at the _**Central Bank of Malaysia**_, specializing in supervisory technology (SupTech) tools (e.g, geospatial analysis, entity outlier detection, financial forensics, and object detection). My work include applying these technologies in domains like _Anti-Money Laundering, Counter-Terrorism Financing and Proliferation Financing, Payment Fraud, Risk Assessment, and Policymaking_. In addition to my work at the Central Bank, I am also interested in researching the intersection of _Artificial Intelligence (AI) and Development Economics, AI Governance, Responsible AI, and AI's impact on the Labor Market_. I am _**open**_ to research opportunities in these fields!
+**About:** I am a _**Data Analytics Supervisor**_ at the _**Central Bank of Malaysia**_, specializing in supervisory technology (SupTech) tools (e.g, geospatial analysis, entity outlier detection, financial forensics, and object detection). My work include applying these technologies in domains like _Anti-Money Laundering, Counter-Terrorism Financing and Proliferation Financing, Payment Fraud, Risk Assessment, and Policymaking_, to ultimately ensure Malaysia's financial stability through industry oversight and risk-informed decision making. In addition to my work at the Central Bank, I am also interested in researching the intersection of _Artificial Intelligence (AI) and Development Economics, AI Governance, Responsible AI, and AI's impact on the Labor Market_. I am _**open**_ to research opportunities in these fields!
 
-**Currently:** I am on study leave from work, and currently enrolled at Carnegie Mellon University studying _Master's of Information Systems Management (specializing in Business Intelligence and Data Analytics)_, with an expected graduation date of August 2026.
+**Current Work:** I am on study leave from work, and currently enrolled at **Carnegie Mellon University** studying _Master's of Information Systems Management (specializing in Business Intelligence and Data Analytics)_, with an expected graduation date of August 2026.
 
 **Education:**
-- Master of Applied Statistics @ Universiti Malaya, 2022  
-  Relevant Courses: Time Series Analysis, Econometrics, Biostatistics, Demographic Techniques, & Statistical Methods  
+- **Master of Applied Statistics @ Universiti Malaya, Malaysia, 2022**  
+  Relevant Courses: Time Series Analysis, Econometrics, Biostatistics, Demographic Techniques, Operations Research Methods, & Statistical Methods  
+  GPA: 3.89/4.00  
+  Research Project (Thesis):
+  - [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing)  
+  - Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter  
   
-- Bachelor of Science, Mathematics @ University of Wisconsin-Madison, 2018  
-  Relevant Courses: Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
+- **Bachelor of Science, Mathematics @ University of Wisconsin-Madison, USA, 2018**  
+  Concentration: Actuarial Mathematics  
+  Relevant Courses: Real Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
+  GPA: 3.25/4.00  
 
 <div class="btn-row">
   <a class="btn" href="{{'/assets/resume/Resume-Shariff-Aug2025-CMU.pdf'}}">📄 Download Résume</a>
@@ -39,15 +45,15 @@
   [Repo - _coming soon_ ](#)
 
 - **Outlier Detection Systems**  
-  Flagging sytems for anomolous observations (e.g., at varying levels such as transactions, customers, and corporate entities) using weakly supervised learning framework. Due to project confidentiality, contact me to discuss more, if interested.  
+  Flagging sytems for anomolous observations (e.g., at varying levels such as transactions, customers, and corporate entities) using weakly supervised learning framework. Due to project confidentiality, contact me to discuss further if interested.  
   _Stack:_ Python, Scikit-Learn, Pandas, Numpy.
 
 - **CCTV Analytics**  
-  Object detection and flagging for anomlous behavior. Due to project confidentiality, contact me to discuss more, if interested.  
+  Object detection and flagging for anomlous behavior. Due to project confidentiality, contact me to discuss further if interested.  
   _Stack:_ Python, Pandas, Numpy, OpenCV.
 
 - **Financial Analytics**  
-  Forensic analyses of financial data. Due to project confidentiality, contact me to discuss more, if interested.  
+  Forensic analyses of financial data. Due to project confidentiality, contact me to discuss further if interested.  
   _Stack:_ Python, Pandas, Numpy, Statistical Methods.
 
 ---
@@ -60,7 +66,7 @@
   [Link to Paper](https://www.bis.org/ifc/publ/ifcwork23.pdf)
 
 - **Determinants of the COVID-19 Death Rate Using Machine Learning**  
-  This was my Master's thesis at the Universiti Malaya, compeleted using R.  
+  This was my Master's thesis at the Universiti Malaya, completed using R.  
   Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
   [Link to Paper](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing)
 
