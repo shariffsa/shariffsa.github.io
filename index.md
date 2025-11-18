@@ -13,6 +13,10 @@
 **Current Work:** I am on study leave from work, and currently enrolled at **Carnegie Mellon University** studying _Master's of Information Systems Management (specializing in Business Intelligence and Data Analytics)_, with an expected graduation date of August 2026.
 
 **Education:**
+- **Master of Science, Computer Science @ Georgia Institute of Technology, 2026 - ongoing (online)**  
+  **Specialization:** Artificial Intelligence  
+  **GPA:** 4.00/4.00 
+
 - **Master of Applied Statistics @ Universiti Malaya, Malaysia, 2022**  
   **Relevant Courses:** Time Series Analysis, Econometrics, Biostatistics, Demographic Techniques, Operations Research Methods, & Statistical Methods  
   **Research Project (Thesis):** [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing). Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
