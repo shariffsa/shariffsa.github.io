@@ -19,7 +19,7 @@
 
 - **Master of Applied Statistics @ Universiti Malaya, Malaysia, 2022**  
   **Relevant Courses:** Time Series Analysis, Econometrics, Biostatistics, Demographic Techniques, Operations Research Methods, & Statistical Methods  
-  **Research Project (Thesis):** [Determinants of the COVID-19 Death Rate Using Machine Learning]([https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view)). Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
+  **Research Project (Thesis):** [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view). Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
   **GPA:** 3.89/4.00  
 
 - **Bachelor of Science, Mathematics @ University of Wisconsin-Madison, USA, 2018**  
@@ -70,7 +70,7 @@
 - **Determinants of the COVID-19 Death Rate Using Machine Learning**  
   This was my Master's thesis at the Universiti Malaya, completed using R.  
   Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
-  [Link to Paper]([https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view?usp=sharing](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view))
+  [Link to Paper](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view)
 
 ---
 
