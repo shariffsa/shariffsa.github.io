@@ -28,7 +28,7 @@
   **GPA:** 3.25/4.00  
 
 <div class="btn-row">
-  <a class="btn" href="{{'/assets/resume/Resume-Shariff-Aug2025-CMU.pdf'}}">📄 Download Résume</a>
+  <a class="btn" href="{{'/assets/resume/Resume-Shariff-Jan2026 (f).pdf'}}">📄 Download Résume</a>
   <a class="btn" href="mailto:sbinsari@andrew.cmu.edu">📧 Email Me</a>
 </div>
 
