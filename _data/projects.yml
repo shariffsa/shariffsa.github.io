@@ -1,19 +1,15 @@
 - name: AML/CFT Policy Compliance RAG
   description: LLM + vector DB system that compares financial institutions' internal policies against supervisory standards, producing explainable compliance ratings with source citations.
   stack: Python · FastAPI · LangChain · Chroma/Pinecone · Streamlit
-  repo:
-  demo:
   status: soon
 
 - name: Stock Research Dashboard
-  description: Stock comparison dashboard integrating technical analysis, sentiment analysis of news, and SEC filings scraping for event-driven studies.
+  description: Stock comparison dashboard integrating technical analysis, news sentiment, and SEC filings scraping for event-driven studies.
   stack: Python · Pandas · Plotly · Streamlit
-  repo:
-  demo:
   status: soon
 
 - name: Geospatial Outlier Detection for Money Services
-  description: Detects outlet clustering and spatial anomalies using statistical methods to support supervisory prioritization. Basis of IFC 2024 paper.
+  description: Detects outlet clustering and spatial anomalies using statistical methods to support supervisory prioritization. Basis of the IFC 2024 Best Paper.
   stack: Python · GeoPandas · scikit-learn · Folium
   status: confidential
 

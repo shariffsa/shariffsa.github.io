@@ -1,4 +1,169 @@
 ---
 layout: default
 ---
-{{ content }}
+
+<section class="hero">
+  <canvas id="net"></canvas>
+  <div class="hero-content">
+    <p class="hero-greeting">Hello, I'm</p>
+    <h1 class="hero-name">Shariff Sarip-Abidinsa</h1>
+    <p class="hero-tagline">Data Analytics &amp; AI &nbsp;·&nbsp; SupTech / RegTech &nbsp;·&nbsp; AML/CFT</p>
+    <div class="hero-btns">
+      <a class="btn btn--outline" href="{{ '/assets/resume/resume.pdf' | relative_url }}" target="_blank">📄 Résumé</a>
+      <a class="btn btn--outline" href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a class="btn btn--outline" href="mailto:sbinsari@andrew.cmu.edu">✉ Email</a>
+    </div>
+  </div>
+  <p class="hero-hint">scroll ↓</p>
+</section>
+
+<div class="page-body">
+  {{ content }}
+</div>
+
+<script>
+(function () {
+  const canvas = document.getElementById('net');
+  const ctx = canvas.getContext('2d');
+  let W, H, nodes, edges;
+  const mouse = { x: -9999, y: -9999 };
+
+  function resize() {
+    W = canvas.width  = canvas.offsetWidth;
+    H = canvas.height = canvas.offsetHeight;
+  }
+
+  function init() {
+    resize();
+
+    const flagged = new Set([2, 6, 9, 13, 16]);
+    nodes = Array.from({ length: 20 }, (_, i) => ({
+      id: i,
+      x: 60 + Math.random() * (W - 120),
+      y: 40 + Math.random() * (H - 80),
+      vx: (Math.random() - 0.5) * 0.22,
+      vy: (Math.random() - 0.5) * 0.22,
+      r: 3.5 + Math.random() * 5,
+      flagged: flagged.has(i),
+      phase: Math.random() * Math.PI * 2,
+      lit: false
+    }));
+
+    const pairs = [
+      [0,1],[0,3],[1,2],[2,5],[3,4],[4,5],[5,6],[6,7],[6,8],
+      [7,9],[8,9],[9,10],[9,11],[10,12],[11,13],[12,14],[13,15],
+      [14,16],[15,16],[16,17],[17,18],[18,19],[0,7],[3,12],[4,18],
+      [1,11],[2,8],[14,19],[10,17]
+    ];
+
+    edges = pairs
+      .filter(([f, t]) => f < nodes.length && t < nodes.length)
+      .map(([f, t]) => {
+        const fl = nodes[f].flagged || nodes[t].flagged;
+        return {
+          from: f, to: t, flagged: fl,
+          pts: Array.from({ length: fl ? 3 : 2 }, () => ({
+            p: Math.random(),
+            s: 0.0012 + Math.random() * 0.0018
+          }))
+        };
+      });
+  }
+
+  function draw(ts) {
+    ctx.clearRect(0, 0, W, H);
+
+    // reset lit
+    nodes.forEach(n => n.lit = false);
+    nodes.forEach(n => {
+      const dx = n.x - mouse.x, dy = n.y - mouse.y;
+      if (dx * dx + dy * dy < 80 * 80) {
+        n.lit = true;
+        edges.forEach(e => {
+          if (e.from === n.id) nodes[e.to].lit = true;
+          if (e.to === n.id)   nodes[e.from].lit = true;
+        });
+      }
+    });
+
+    /* --- edges --- */
+    edges.forEach(e => {
+      const f = nodes[e.from], t = nodes[e.to];
+      const hi = f.lit || t.lit;
+
+      ctx.beginPath();
+      ctx.moveTo(f.x, f.y);
+      ctx.lineTo(t.x, t.y);
+      ctx.lineWidth  = hi ? (e.flagged ? 1.5 : 1) : 0.7;
+      ctx.strokeStyle = e.flagged
+        ? `rgba(201,134,26,${hi ? 0.55 : 0.13})`
+        : `rgba(255,255,255,${hi ? 0.28 : 0.06})`;
+      ctx.stroke();
+
+      e.pts.forEach(pt => {
+        pt.p += pt.s;
+        if (pt.p > 1) pt.p -= 1;
+        const x = f.x + (t.x - f.x) * pt.p;
+        const y = f.y + (t.y - f.y) * pt.p;
+        ctx.beginPath();
+        ctx.arc(x, y, e.flagged ? 2.2 : 1.6, 0, Math.PI * 2);
+        ctx.fillStyle = e.flagged
+          ? `rgba(201,134,26,${hi ? 1 : 0.75})`
+          : `rgba(255,255,255,${hi ? 0.9 : 0.38})`;
+        ctx.fill();
+      });
+    });
+
+    /* --- nodes --- */
+    nodes.forEach(n => {
+      n.x += n.vx; n.y += n.vy;
+      if (n.x < 15 || n.x > W - 15) n.vx *= -1;
+      if (n.y < 15 || n.y > H - 15) n.vy *= -1;
+      n.phase += 0.018;
+
+      const pulse = 0.7 + 0.3 * Math.sin(n.phase);
+      const r = n.r + (n.lit ? 2.5 : 0);
+
+      if (n.flagged) {
+        const g = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, r * 7);
+        g.addColorStop(0, `rgba(201,134,26,${0.22 * pulse})`);
+        g.addColorStop(1, 'rgba(201,134,26,0)');
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, r * 7, 0, Math.PI * 2);
+        ctx.fillStyle = g;
+        ctx.fill();
+      }
+
+      if (n.lit || n.flagged) {
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, r + 4, 0, Math.PI * 2);
+        ctx.strokeStyle = n.flagged
+          ? `rgba(201,134,26,${0.45 * pulse})`
+          : 'rgba(255,255,255,0.25)';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = n.flagged
+        ? `rgba(201,134,26,${0.65 + 0.35 * pulse})`
+        : `rgba(255,255,255,${n.lit ? 0.92 : 0.52})`;
+      ctx.fill();
+    });
+
+    requestAnimationFrame(draw);
+  }
+
+  canvas.addEventListener('mousemove', e => {
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+  });
+  canvas.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
+  window.addEventListener('resize', resize);
+
+  init();
+  requestAnimationFrame(draw);
+})();
+</script>

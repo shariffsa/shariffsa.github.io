@@ -5,28 +5,18 @@ author:
   name: Shariff Sarip-Abidinsa
   email: sbinsari@andrew.cmu.edu
 
-# GitHub Pages requires a supported theme; our custom _layouts override everything
 theme: minima
 
-# Build settings
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Sass
 sass:
   sass_dir: assets/css
   style: compressed
 
-# Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
   - scope:
       path: ""
       type: "pages"
