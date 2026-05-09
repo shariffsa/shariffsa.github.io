@@ -1,25 +1,12 @@
 title: Shariff Sarip-Abidinsa
-description: Data & AI • SupTech/RegTech • AML/CFT Analytics
+description: Data Analytics & AI · SupTech/RegTech · AML/CFT
+
 author:
   name: Shariff Sarip-Abidinsa
   email: sbinsari@andrew.cmu.edu
-  github: shariffsa
-# Use GitHub Pages supported theme
+
+# GitHub Pages requires a supported theme; our custom _layouts override everything
 theme: minima
-
-# Show pages in the header nav (by filename)
-header_pages:
-  - about.md
-  - projects.md
-  - resume.md
-  - contact.md
-
-# Minima options
-minima:
-  social_links:
-    - {"platform": "github", "user_url": "https://github.com/shariffsa"}
-    - {"platform": "linkedin", "user_url": "https://www.linkedin.com/in/shariffsarip/"}
-    - {"platform": "x", "user_url": "https://x.com/shariff_ai"}
 
 # Build settings
 markdown: kramdown
@@ -28,10 +15,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# If you later set a custom domain, uncomment the next line and set it
-# url: https://www.YOURDOMAIN.com
+# Sass
+sass:
+  sass_dir: assets/css
+  style: compressed
 
-# Useful defaults
+# Defaults
 defaults:
   - scope:
       path: ""

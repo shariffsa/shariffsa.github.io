@@ -1,23 +1,35 @@
 ---
-title: Projects
 layout: page
+title: Projects
+subtitle: Selected work across supervisory analytics, ML, and data engineering.
 permalink: /projects/
 ---
 
-Below are selected projects. This page is generated from `_data/projects.yml` to keep things tidy.
+<p class="section-label">All Projects</p>
 
-{% assign items = site.data.projects %}
-<div class="projects">
-  {% for p in items %}
-  <div class="project">
-    <h3><a href="{{ p.url | default: '#' }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
-    <p>{{ p.description }}</p>
-    <ul>
-      <li><strong>Stack:</strong> {{ p.stack }}</li>
-      {% if p.repo %}<li><a href="{{ p.repo }}" target="_blank" rel="noopener">GitHub repo</a></li>{% endif %}
-      {% if p.demo %}<li><a href="{{ p.demo }}" target="_blank" rel="noopener">Live demo</a></li>{% endif %}
-    </ul>
+<div class="projects-grid">
+{% for p in site.data.projects %}
+  <div class="project-card">
+    {% if p.status == 'soon' %}
+      <span class="project-card__badge badge--soon">Coming Soon</span>
+    {% elsif p.status == 'confidential' %}
+      <span class="project-card__badge badge--conf">Confidential</span>
+    {% elsif p.status == 'live' %}
+      <span class="project-card__badge badge--live">Live</span>
+    {% endif %}
+    <p class="project-card__title">
+      {% if p.demo %}<a href="{{ p.demo }}" target="_blank" rel="noopener">{{ p.name }}</a>
+      {% elsif p.repo %}<a href="{{ p.repo }}" target="_blank" rel="noopener">{{ p.name }}</a>
+      {% else %}{{ p.name }}{% endif %}
+    </p>
+    <p class="project-card__desc">{{ p.description }}</p>
+    <p class="project-card__stack">{{ p.stack }}</p>
+    {% if p.repo or p.demo %}
+    <div class="project-card__links">
+      {% if p.repo %}<a href="{{ p.repo }}" target="_blank" rel="noopener">GitHub →</a>{% endif %}
+      {% if p.demo %}<a href="{{ p.demo }}" target="_blank" rel="noopener">Demo →</a>{% endif %}
+    </div>
+    {% endif %}
   </div>
-  <hr/>
-  {% endfor %}
+{% endfor %}
 </div>

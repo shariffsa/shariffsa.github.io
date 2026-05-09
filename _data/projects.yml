@@ -1,15 +1,33 @@
-- name: CheckPal — AML/CFT Policy Compliance RAG
-  description: LLM + vector DB system to compare FI policies against supervisory standards and produce explainable compliance ratings.
-  stack: Python, FastAPI, LangChain, Chroma/Pinecone, Streamlit
-  repo: https://github.com/YOUR-GITHUB/checkpal
-  demo: https://your-demo-url.example.com
+- name: AML/CFT Policy Compliance RAG
+  description: LLM + vector DB system that compares financial institutions' internal policies against supervisory standards, producing explainable compliance ratings with source citations.
+  stack: Python · FastAPI · LangChain · Chroma/Pinecone · Streamlit
+  repo:
+  demo:
+  status: soon
 
 - name: Stock Research Dashboard
-  description: A Streamlit app integrating Alpha Vantage API, SEC filings scraping, and Yahoo Finance for event studies.
-  stack: Python, Pandas, Plotly, Streamlit
-  repo: https://github.com/YOUR-GITHUB/stock-dashboard
+  description: Stock comparison dashboard integrating technical analysis, sentiment analysis of news, and SEC filings scraping for event-driven studies.
+  stack: Python · Pandas · Plotly · Streamlit
+  repo:
+  demo:
+  status: soon
 
-- name: Geospatial Risk for Money Lenders
-  description: Detects outlet clustering & anomalies using spatial statistics to support supervisory prioritization.
-  stack: Python, GeoPandas, scikit-learn, Folium
-  repo: https://github.com/YOUR-GITHUB/geospatial-risk
+- name: Geospatial Outlier Detection for Money Services
+  description: Detects outlet clustering and spatial anomalies using statistical methods to support supervisory prioritization. Basis of IFC 2024 paper.
+  stack: Python · GeoPandas · scikit-learn · Folium
+  status: confidential
+
+- name: Transaction & Entity Outlier Detection
+  description: Weakly supervised flagging systems for anomalous observations at transaction, customer, and corporate entity levels for AML/CFT supervision.
+  stack: Python · Scikit-Learn · Pandas · NumPy
+  status: confidential
+
+- name: CCTV Behavioral Analytics
+  description: Object detection and behavioral anomaly flagging using computer vision in supervisory contexts.
+  stack: Python · OpenCV · Pandas · NumPy
+  status: confidential
+
+- name: Financial Forensics Analytics
+  description: Forensic analyses of financial data for AML/CFT risk assessment and policymaking support.
+  stack: Python · Pandas · NumPy · Statistical Methods
+  status: confidential

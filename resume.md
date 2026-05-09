@@ -1,12 +1,18 @@
 ---
-title: CV / Resume
 layout: page
+title: Résumé
+subtitle: Last updated January 2026.
 permalink: /resume/
 ---
 
-You can view or download my latest CV below.
+<div class="btn-row">
+  <a class="btn" href="{{ '/assets/resume/resume.pdf' | relative_url }}" target="_blank">📄 Open PDF</a>
+  <a class="btn" href="{{ '/assets/resume/resume.pdf' | relative_url }}" download>⬇ Download</a>
+  <a class="btn" href="https://www.linkedin.com/in/shariffsa/" target="_blank" rel="noopener">LinkedIn Profile</a>
+</div>
 
-- **PDF:** [Download resume](assets/resume/resume.pdf)
-- **LinkedIn:** <https://www.linkedin.com/in/YOUR-LINKEDIN/>
-
-> Replace `assets/resume/resume.pdf` with your actual file.
+<iframe
+  class="resume-embed"
+  src="{{ '/assets/resume/resume.pdf' | relative_url }}"
+  title="Shariff Sarip-Abidinsa — Résumé">
+</iframe>

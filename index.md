@@ -1,94 +1,111 @@
-<a id="top"></a>
+---
+layout: home
+title: Home
+---
 
-<p align="center">
-  <img src="assets/img/profile.PNG" alt="Shariff profile photo" class="avatar" />
-</p>
+<div class="hero">
+  <p class="hero__greeting">Hello, I'm</p>
+  <h1 class="hero__name">Shariff Sarip-Abidinsa</h1>
+  <p class="hero__tagline">Data Analytics &amp; AI · SupTech/RegTech · AML/CFT</p>
 
-<h1 style="text-align: center;">
-  Shariff Sarip-Abidinsa
-</h1>
+  <p class="hero__bio">
+    I'm a <strong>Data Analytics Supervisor</strong> at the <strong>Central Bank of Malaysia</strong>,
+    specializing in supervisory technology (SupTech) — geospatial analysis, entity outlier detection,
+    financial forensics, and object detection — applied across Anti-Money Laundering, Counter-Terrorism
+    Financing, Payment Fraud, Risk Assessment, and Policymaking.
+  </p>
 
-**About:** I am a _**Data Analytics Supervisor**_ at the _**Central Bank of Malaysia**_, specializing in supervisory technology (SupTech) tools (e.g, geospatial analysis, entity outlier detection, financial forensics, and object detection). My work include applying these technologies in domains like _Anti-Money Laundering, Counter-Terrorism Financing and Proliferation Financing, Payment Fraud, Risk Assessment, and Policymaking_, to ultimately ensure Malaysia's financial stability through industry oversight and risk-informed decision-making. In addition to my work at the Central Bank, I am also interested in researching the intersection of _Artificial Intelligence (AI) and Development Economics, AI Governance, Responsible AI, and AI's impact on the Labor Market_. I am _**open**_ to research opportunities in these fields!
+  <p class="hero__bio">
+    On study leave, currently pursuing a
+    <strong>Master of Information Systems Management</strong> at <strong>Carnegie Mellon University</strong>
+    (BIDA specialization, graduating Aug 2026) and a
+    <strong>Master of Science in Computer Science</strong> at <strong>Georgia Institute of Technology</strong>
+    (AI specialization, 4.00 GPA). I'm interested in research at the intersection of
+    AI &amp; Development Economics, AI Governance, Responsible AI, and AI's impact on labor markets —
+    open to opportunities.
+  </p>
 
-**Current Work:** I am on study leave from work, and currently enrolled at **Carnegie Mellon University** studying _Master's of Information Systems Management (specializing in Business Intelligence and Data Analytics)_, with an expected graduation date of August 2026.
-
-**Education:**
-- **Master of Science, Computer Science @ Georgia Institute of Technology, 2026 - ongoing (online)**  
-  **Specialization:** Artificial Intelligence  
-  **GPA:** 4.00/4.00 
-
-- **Master of Applied Statistics @ Universiti Malaya, Malaysia, 2022**  
-  **Relevant Courses:** Time Series Analysis, Econometrics, Biostatistics, Demographic Techniques, Operations Research Methods, & Statistical Methods  
-  **Research Project (Thesis):** [Determinants of the COVID-19 Death Rate Using Machine Learning](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view). Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
-  **GPA:** 3.89/4.00  
-
-- **Bachelor of Science, Mathematics @ University of Wisconsin-Madison, USA, 2018**  
-  **Concentration:** Actuarial Mathematics  
-  **Relevant Courses:** Real Analysis, Differential Equations, Honors Linear Algebra, Insurance Loss Modeling, & Actuarial Mathematics  
-  **GPA:** 3.25/4.00  
-
-<div class="btn-row">
-  <a class="btn" href="{{'/assets/resume/Resume-Shariff-Jan2026 (f).pdf'}}">📄 Download Résume</a>
-  <a class="btn" href="mailto:sbinsari@andrew.cmu.edu">📧 Email Me</a>
+  <div class="btn-row">
+    <a class="btn" href="{{ '/assets/resume/resume.pdf' | relative_url }}">📄 Download Résumé</a>
+    <a class="btn" href="{{ '/projects/' | relative_url }}">View Projects</a>
+    <a class="btn" href="mailto:sbinsari@andrew.cmu.edu">📧 Email Me</a>
+  </div>
 </div>
 
 ---
 
-## Projects <a id="projects"></a>
+<p class="section-label">Education</p>
 
-- **AML/CFT Policy Compliance RAG**  
-  About: Automated non-compliance checker using RAG system by comparing supervisory authorities' policy documents against company's own internal policies, controls and implementation plan.  
-  _Stack:_ Python, FastAPI, LangChain, Pinecone/Chroma, Streamlit.  
-  [Repo - _coming soon_ ](#) · [Demo - _coming soon_ ](#)
+<div class="edu-list">
 
-- **Stock Research Dashboard**  
-  Stock comparison dashboard, leveraging technical analyses, sentiment analysis of news and securities filings.  
-  _Stack:_ Python, Pandas, Plotly, Streamlit.  
-  [Repo - _coming soon_ ](#)
+  <div class="edu-entry">
+    <div class="edu-entry__left">
+      <p class="edu-entry__degree">Master of Science, Computer Science</p>
+      <p class="edu-entry__school">Georgia Institute of Technology</p>
+      <p class="edu-entry__detail">Specialization: Artificial Intelligence<br>
+      Courses: Machine Learning, ML for Trading, Software Development Process</p>
+    </div>
+    <div class="edu-entry__right">
+      <p class="edu-entry__year">2024 – ongoing</p>
+      <span class="edu-entry__gpa">4.00 / 4.00</span>
+    </div>
+  </div>
 
-- **Outlier Detection Systems**  
-  Flagging sytems for anomolous observations (e.g., at varying levels such as transactions, customers, and corporate entities) using weakly supervised learning framework. Due to project confidentiality, contact me to discuss further if interested.  
-  _Stack:_ Python, Scikit-Learn, Pandas, Numpy.
+  <div class="edu-entry">
+    <div class="edu-entry__left">
+      <p class="edu-entry__degree">Master of Information Systems Management</p>
+      <p class="edu-entry__school">Carnegie Mellon University · Heinz College</p>
+      <p class="edu-entry__detail">Specialization: Business Intelligence &amp; Data Analytics<br>
+      Courses: Distributed Systems, Generative AI Governance, Digital Transformation</p>
+    </div>
+    <div class="edu-entry__right">
+      <p class="edu-entry__year">2025 – Aug 2026</p>
+    </div>
+  </div>
 
-- **CCTV Analytics**  
-  Object detection and flagging for anomlous behavior. Due to project confidentiality, contact me to discuss further if interested.  
-  _Stack:_ Python, Pandas, Numpy, OpenCV.
+  <div class="edu-entry">
+    <div class="edu-entry__left">
+      <p class="edu-entry__degree">Master of Applied Statistics</p>
+      <p class="edu-entry__school">Universiti Malaya, Malaysia</p>
+      <p class="edu-entry__detail">Thesis: <a href="https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view" target="_blank" rel="noopener">Determinants of the COVID-19 Death Rate Using Machine Learning</a>
+      — published as a <a href="https://doi.org/10.4324/9781003491736" target="_blank" rel="noopener">book chapter</a></p>
+    </div>
+    <div class="edu-entry__right">
+      <p class="edu-entry__year">2022</p>
+      <span class="edu-entry__gpa">3.89 / 4.00</span>
+    </div>
+  </div>
 
-- **Financial Analytics**  
-  Forensic analyses of financial data. Due to project confidentiality, contact me to discuss further if interested.  
-  _Stack:_ Python, Pandas, Numpy, Statistical Methods.
+  <div class="edu-entry">
+    <div class="edu-entry__left">
+      <p class="edu-entry__degree">Bachelor of Science, Mathematics</p>
+      <p class="edu-entry__school">University of Wisconsin–Madison</p>
+      <p class="edu-entry__detail">Concentration: Actuarial Mathematics<br>
+      Courses: Real Analysis, Honors Linear Algebra, Insurance Loss Modeling</p>
+    </div>
+    <div class="edu-entry__right">
+      <p class="edu-entry__year">2018</p>
+      <span class="edu-entry__gpa">3.25 / 4.00</span>
+    </div>
+  </div>
+
+</div>
 
 ---
 
-## Publications <a id="publications"></a>
+<p class="section-label">Certifications &amp; Affiliations</p>
 
-- **Machine Learning for Anomaly Detection in Money Services Business Outlets Using Data by Geolocation**  
-  This paper was presented at the 12th biennial IFC Conference on “Statistics and beyond: new data for decision making in central banks” at Basel, Switzerland in 2024.  
-  Award: [Best Paper by a Young Statistician](https://www.linkedin.com/posts/bis_youngstatisticianaward-ifcconference-activity-7232779682373345280-Jz5R?utm_source=share&utm_medium=member_desktop&rcm=ACoAABMY818BAYe89JEgR4-8ZNTlYVFgXqkHPEA)  
-  [Link to Paper](https://www.bis.org/ifc/publ/ifcwork23.pdf)
+<div class="cert-list">
 
-- **Determinants of the COVID-19 Death Rate Using Machine Learning**  
-  This was my Master's thesis at the Universiti Malaya, completed using R.  
-  Published as part of a [book](https://doi.org/10.4324/9781003491736) chapter.  
-  [Link to Paper](https://drive.google.com/file/d/1w5isNikmnED0-G9nIcoj6kZt5JwGgOGd/view)
+  <div class="cert-entry">
+    <p class="cert-entry__title">Certified Anti-Money Laundering Specialist (CAMS) · ACAMS</p>
+    <p class="cert-entry__detail"><a href="https://www.acams.org/en/graduates/acams-graduate-list-cams-certified-graduates#search=Shariff%20Abu%20Bakar%20Bin%20Sarip%20Abidinsa&page=0" target="_blank" rel="noopener">ACAMS Graduate List</a></p>
+  </div>
 
----
+  <div class="cert-entry">
+    <p class="cert-entry__title">MicroMaster's in Data, Economics, and Design of Policy · MIT</p>
+    <p class="cert-entry__detail">Major: International Development · Courses: RCT Design, Microeconomics, Development Policy, Statistical Data Analysis<br>
+    <a href="https://mitxonline.mit.edu/certificate/program/eb97b804-9448-45c9-acdb-5bf4d7175a53/" target="_blank" rel="noopener">View Certificate</a></p>
+  </div>
 
-## Certifications & Affiliations <a id="affiliations"></a>
-
-- **Certified Anti-Money Laundering Specialist (CAMS) by ACAMS**   
-  [ACAMS Graduate List](https://www.acams.org/en/graduates/acams-graduate-list-cams-certified-graduates#search=Shariff%20Abu%20Bakar%20Bin%20Sarip%20Abidinsa&page=0)
-
-- **MicroMaster's in Data, Economics, and Design of Policy @ MIT**  
-  Major: International Development.  
-  Relevant Courses: Designing and Running Randomized Evaluations, Microeconomics, Development Policy, and Statistical Data Analysis.  
-  [Certificate](https://mitxonline.mit.edu/certificate/program/eb97b804-9448-45c9-acdb-5bf4d7175a53/)
-
----
-
-## Contact <a id="contact"></a>
-
-- **Email:** [sbinsari@andrew.cmu.edu](mailto:sbinsari@andrew.cmu.edu)
-- **LinkedIn:** [https://www.linkedin.com/in/shariffsa/](https://www.linkedin.com/in/shariffsa/)  
-- **GitHub:** [https://github.com/shariffsa](https://github.com/shariffsa)
-- **X:** [https://x.com/shariff_ai](https://x.com/shariff_ai)
+</div>
