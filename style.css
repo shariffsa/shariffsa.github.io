@@ -17,10 +17,10 @@ body{font-family:var(--sans);font-weight:400;color:var(--body);background:var(--
 /* NAV */
 .nav{position:sticky;top:0;height:var(--nav);background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);z-index:20}
 .nav-inner{max-width:var(--w);margin:0 auto;padding:0 2rem;height:100%;display:flex;align-items:center;justify-content:space-between}
-.nav-logo{font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--fg);text-decoration:none}
+.nav-logo{font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--fg);text-decoration:none;line-height:var(--nav)}
 .nav-logo:hover{color:var(--navy)}
 .nav-links{list-style:none;display:flex;gap:.1rem;align-items:center}
-.nav-links a{display:block;padding:.32rem .75rem;font-size:.875rem;font-weight:500;color:var(--muted);text-decoration:none;border-radius:6px;transition:color .12s,background .12s}
+.nav-links a{display:flex;align-items:center;padding:.32rem .75rem;font-size:.875rem;font-weight:500;color:var(--muted);text-decoration:none;border-radius:6px;transition:color .12s,background .12s}
 .nav-links a:hover{color:var(--fg);background:var(--soft)}
 .nav-links a.active{color:var(--navy)}
 
